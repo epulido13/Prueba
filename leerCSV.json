@@ -1,0 +1,152 @@
+{
+  "Name": "leerCSV",
+  "CreationDate": "2020-3-9",
+  "Commands": [
+    {
+      "Command": "echo",
+      "Target": "Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber}",
+      "Value": "green"
+    },
+    {
+      "Command": "open",
+      "Target": "http://pruebas.eselect.com.co/configuracion/usuarios.jsf",
+       "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "//button[@id='f_resultados:j_idt94']/span",
+       "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=f_crear:crearUsuario",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=f_crear:j_idt190",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=f_crear:crearUsuario",
+      "Value": "${!COL2}",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=f_crear:rolUsuario_label",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=f_crear:rolUsuario_4",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "//div[@id='f_crear:proveedor_recepcion']/div[2]/span",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=f_crear:identificacion_proveedor_label",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=f_crear:identificacion_proveedor_4",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "//div[@id='f_crear:superAdminCreate']/div[2]/span",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=f_crear:crearNombres",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=f_crear:crearNombres",
+      "Value": "${!COL3}"
+    },
+    {
+      "Command": "click",
+      "Target": "id=f_crear:crearApellidos",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=f_crear:crearApellidos",
+      "Value": "Manrique saavedra"
+    },
+    {
+      "Command": "click",
+      "Target": "id=f_crear:tipo_identificacion_label",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=f_crear:tipo_identificacion_3",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=f_crear:crearNumero_identificacion_input",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=f_crear:crearNumero_identificacion_input",
+      "Value": "1057593789"
+    },
+    {
+      "Command": "click",
+      "Target": "id=f_crear:crearCorreo_electronico",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=f_crear:crearCorreo_electronico",
+      "Value": "jenarquitec@yahoo.com"
+    },
+    {
+      "Command": "click",
+      "Target": "id=f_crear:crearNumero_input",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=f_crear:crearNumero_input",
+      "Value": "3205893695"
+    },
+    {
+      "Command": "click",
+      "Target": "id=f_crear:crearContrasena",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=f_crear:crearContrasena",
+      "Value": "1322222222222222"
+    },
+    {
+      "Command": "click",
+      "Target": "id=f_crear:crearConfContrasena",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=f_crear:crearConfContrasena",
+      "Value": "123333333333333333"
+    },
+    {
+      "Command": "click",
+      "Target": "//button[@id='f_crear:j_idt236']/span",
+      "Value": ""
+    }
+  ]
+}
